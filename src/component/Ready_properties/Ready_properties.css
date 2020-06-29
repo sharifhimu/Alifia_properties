@@ -10,20 +10,23 @@
 
 .borderdown{
     margin: 2em 0 0 16px;
-    border: 2px solid black;
+    border: 2px solid rgba(0,0,0,.3);
     width: 7em;
+    transition: .2s;
 }
 
 .singlecard{
-    width: 20rem;
+    width: 18rem;
     /* margin: 0 3rem !important;    */
     
-    height: 60vh;
+    height: 35rem;
     align-items: flex-start ;
     justify-content: flex-end;
 
     background-repeat: no-repeat;
     cursor: pointer;
+    margin: 2em 0;
+    transition: .2s;
 }
 
 .img1{
@@ -40,7 +43,7 @@
 }
 
 .singlecard:hover + .borderdown{
-    border:2px solid #CCBB8F !important;
+    border:2px solid #FFE9B1 !important;
     /* width: 10em; */
 }
 
@@ -61,7 +64,8 @@
  */
 
 .cardgrp{
-    margin: 2rem 9rem 9rem 16rem;
+    /* margin: 2rem 9rem 9rem 16rem; */
+    justify-content: center;
 }
 
 
@@ -69,22 +73,14 @@
 
 @media(max-width: 800px){
     .textimage p{
-        font-size: 20px !important;
+        /* font-size: 20px !important; */
     }
 }
 
 
 @media(max-width: 575px){
-    .textimage p{
-        font-size: 50px !important;
-    }
+    
 }
-
-
-
-
-
-
 
 
 
@@ -95,5 +91,9 @@
 
     .cardgrp{
         margin: 2rem 9rem 9rem 7rem;
+    }
+    .singlecard{
+        /* width: 15rem; */
+        height: 20rem;
     }
 } 
