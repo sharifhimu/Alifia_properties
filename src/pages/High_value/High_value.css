@@ -1,0 +1,52 @@
+.bghighvalue{
+    /* background-image: url(../../image/highvalue.png); */
+    /* height: 50vh; */
+    /* width: 50vw; */
+    /* float: inline-end; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center top; */
+    /* margin: 0 0 0 35em; */
+}
+
+
+.highvaluetext{
+    position: absolute;
+    margin: 2em 0 0 5em;
+    text-align: start;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.highvaluetext h1{
+    color: #CCBB8F;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    width: 35rem;
+}
+
+.highvaluetext p{
+    width: 20rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+@media(max-width: 600px){
+
+    .bghighvalue{
+        margin: 0 0 0 5rem !important;
+        width: 20em !important; 
+    }
+
+    .highvaluetext h1{
+            font-size: 1rem;
+            width: 15rem;
+    }
+    .highvaluetext p{
+        /* font-size: 10px; */
+        /* color: white; */
+        display: none;
+    }
+}
