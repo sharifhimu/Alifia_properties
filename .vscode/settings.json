@@ -1,9 +1,0 @@
-{
-    "editor.codeActionsOnSave": null,
-    "git.enabled": true,
-    "git.path": "C:\\path\\to\\git.exe",
-    "git.alwaysShowStagedChangesResourceGroup": true,
-    "git.alwaysSignOff": true,
-    "git.autofetch": true
-
-}
