@@ -2,24 +2,27 @@ import React from 'react';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import LandingPage from './pages/LandingPage';
-
-// import NavBar from './pages/Navbar/Navbar';
-// import High_value from './pages/High_value/High_value';
-// import Ready_properties from './pages/Ready_properties/Ready_properties';
-// import Lets_speak from './pages/Lets_speak/Lets_speak';
-// import Contact from './pages/Contact/Contact';
-// import Footer from './pages/Footer/Footer';
+import ContactPage from './pages/ContactPage';
+import MissionVisionPage from './pages/MissionVisionPage';
 
 
 function App() {
   return (
+    <Router>
     <div className="App">
 
-        <LandingPage />
+        <Switch>
+        <Route exact path ="/" component= {LandingPage} />
+        <Route  path ="/contactpage" component= {ContactPage} /> 
+        <Route  path ="/mission&vision" component= {MissionVisionPage} />  
 
+        </Switch>
+      
     </div>
+    </Router>
   );
 }
 

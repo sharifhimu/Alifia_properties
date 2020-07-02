@@ -1,0 +1,20 @@
+.footertext{
+    display: flex;
+    justify-content: center;
+}
+
+.footerbg{
+     background-color: #808080;
+     padding: 2rem 0;
+
+}
+
+@media(max-width: 600px){
+    .footertext{
+        display: grid;
+        width: 100%;
+    }
+    .footerbg{
+            /* width: 119%; */
+    }
+}
