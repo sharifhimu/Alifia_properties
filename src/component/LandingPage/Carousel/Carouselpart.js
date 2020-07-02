@@ -2,11 +2,11 @@ import React from 'react'
 import {Container, Row, Col, Carousel } from 'react-bootstrap';
 import './Carouselpart.css';
 
-import img1 from '../../../image/bg1.png';
+// import img1 from '../../../image/bg1.png';
 
 export default function Carouselpart(  ) {
     return (
-        <div className="bg" style={{ backgroundImage: `url(${  img1  })`}}>
+        <div className="bg" >
 
          
                
