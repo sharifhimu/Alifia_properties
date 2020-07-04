@@ -1,0 +1,79 @@
+@media(min-width: 1200px){
+    .containersize{
+        max-width: 1400px;
+    }
+}
+
+.fullcard{
+    width: 25rem;
+    border: 1px solid #ffe9b1;
+}
+
+.cardtitle{
+    background-color: #404040;
+    align-self: flex-start;
+    padding: 6px 15px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.cardbelow{
+    text-align: start;
+    z-index: 1;
+    padding: 0 0 50px 0;
+}
+
+.viewdetails a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.viewdetails{
+    cursor: pointer;
+    background-color: #ccbb8f;
+    padding: 6px 20px;
+    transition: .2s;
+}
+
+.viewdetails:hover {
+            background-color: #A39572;
+}
+
+.propertydetails{
+    padding: 6px 20px;
+}
+
+.propertydetails .card-title{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
+
+.propertydetails .card-text{
+    color: #ccbb8f;
+}
+
+
+
+
+
+@media(max-width: 375px){
+    .fullcard{
+        width: 15rem;
+    }
+    .cardbelow{
+        padding: 0 0 20px 0;
+    }
+}

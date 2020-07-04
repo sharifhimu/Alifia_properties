@@ -14,14 +14,21 @@
     font-size: 15px;
 }
 
+.mailicon{
+    font-size: 30px;
+    color: #CCBB8F;
+    margin: 30px 0 0 0;
+}
+
 .msgcard{
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05);
     border: 1px solid #FFE9B1;
+    align-items: center;
 }
 
 .msgtitle{
     text-align: center;
-    margin: 20px 0 0 18px;
+    margin: 20px 0 0 0;
     font-family: 'Merriweather', serif;
     font-size: 20px;
     color:#CCBB8F;

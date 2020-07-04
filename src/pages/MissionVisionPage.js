@@ -5,6 +5,8 @@ import MissionVisionCarousel from '../component/MissionVisionPage/MissionVisionC
 import AddressSection from '../component/ContactPage/AddressSection/AddressSection';
 import Whoweare from '../component/MissionVisionPage/Whoweare/Whoweare';
 import Message from '../component/MissionVisionPage/Message/Message';
+import Footer from '../component/LandingPage/Footer/Footer';
+
 export default function MissionVisionPage() {
     return (
         <div>
@@ -13,6 +15,7 @@ export default function MissionVisionPage() {
             <Whoweare />
             <Message />
             <AddressSection />
+            <Footer />
             
         </div>
     )

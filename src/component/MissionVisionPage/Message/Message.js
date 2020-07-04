@@ -2,6 +2,7 @@ import React from 'react'
 import {Container,Row,Col, Card} from 'react-bootstrap';
 
 import './Message.css';
+import {GoMailRead} from 'react-icons/go';
 
 export default function Message() {
     return (
@@ -42,6 +43,7 @@ export default function Message() {
                     <Col lg={4} id="msgsection">
 
                     <Card className="msgcard">
+                        <GoMailRead className="mailicon"/>
                         <h1 className="msgtitle">Leave Your Message</h1>
                    
                     <Card.Body className="msgbtm">

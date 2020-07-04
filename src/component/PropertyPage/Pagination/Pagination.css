@@ -1,0 +1,23 @@
+.pagination{
+    justify-content: center;
+}
+
+.page-link{
+    border: 1px solid #ffe9b1;
+    color: #CCBB8F;
+    transition: .5s ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-link:hover{
+    background-color: #CCBB8F;
+    color: white;
+}
+
+
+.page-item.active .page-link {
+  
+    background-color: #CCBB8F;
+    border-color: #CCBB8F;
+
+}

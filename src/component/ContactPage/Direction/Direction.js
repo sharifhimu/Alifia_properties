@@ -9,7 +9,7 @@ export default function Direction() {
     return (
         <div>
             <Container style={{ marginTop: '4rem' }}>
-                <Row style={{ justifyContent: 'center' }}>
+                <Row  style={{ justifyContent: 'space-between' }}>
 
                     <Col lg={5} md sm xs={12}>
                     
@@ -24,7 +24,7 @@ export default function Direction() {
 
                     </Col >
 
-                    <Col lg={5} md sm xs={12} id="contact">
+                    <Col lg={6} md sm xs={12} id="contact">
                     
                     <Card style={{ border: '1px solid #FFE9B1', margin: '20px 0'  }}>
                         <h1 className="maptitle">Contact Us</h1>

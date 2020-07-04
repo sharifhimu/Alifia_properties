@@ -1,7 +1,7 @@
 import React from 'react'
 import {Nav, Navbar, Container, Row, Dropdown } from 'react-bootstrap';
 import logo from '../../../image/Union.png';
-import {Link} from 'react-router-dom';
+
 
 import './Navbar.css';
 
@@ -30,7 +30,7 @@ export default class NavBar extends React.Component {
             <Navbar collapseOnSelect expand="sm" >
             
             
-            <Navbar.Brand className="brandsmall" href="#home">
+            <Navbar.Brand className="brandsmall" href="/">
                     <img
                      src={logo}
                      width="80"
@@ -48,7 +48,7 @@ export default class NavBar extends React.Component {
 
                 <Nav>
                 <Nav.Link href="/">LAND</Nav.Link>
-                <Nav.Link href="#features">APARTMENTS</Nav.Link>
+                <Nav.Link href="/property">APARTMENTS</Nav.Link>
                
                 </Nav>
                

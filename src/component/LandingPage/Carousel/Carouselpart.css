@@ -27,7 +27,7 @@
 }
 
 
-.fa-angle-down{
+.fa{
     color: #FFE9B1;
     font-size: 30px;
     margin: 0 20px;
@@ -61,7 +61,7 @@
     position: absolute;
     background-color: #FFE9B1;
     
-    min-width: 17.4em;
+    min-width: 18em;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
     /* border: 3px solid #FFE9B1; */
@@ -72,7 +72,7 @@
   
   .dropdown-content a {
     color: rgba(0,0,0,.5);
-    padding: 5px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     display: block;
     transition: all .2s;
@@ -106,11 +106,11 @@
          font-size: 10px;
          padding:5px;
      }
-     .fa-angle-down{
+     .fa{
          font-size: 15px;
      }
      .dropdown-content{
-         min-width: 12rem;
+         min-width: 12.2rem;
      }
  }
 

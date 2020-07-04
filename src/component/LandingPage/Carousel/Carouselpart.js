@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Carousel } from 'react-bootstrap';
 import './Carouselpart.css';
-
+import {IoIosArrowDown} from 'react-icons/io';
 // import img1 from '../../../image/bg1.png';
 
 export default function Carouselpart(  ) {
@@ -26,7 +26,7 @@ export default function Carouselpart(  ) {
                 {/* <Row>    */}
                      
                      <div className="dropdown">
-                     <button className="dropbtn">Explore Properties <i class="fa fa-angle-down"></i></button>
+                     <button className="dropbtn">Explore Properties <IoIosArrowDown className="fa" /> </button>
                      <div className="dropdown-content">
                          <a href="/">Property 1</a>
                          <a href="/">Property 2</a>

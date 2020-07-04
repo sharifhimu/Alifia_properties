@@ -11,19 +11,21 @@ export default function Lets_speak() {
     return (
         <div>
             <Container>
+           
 
                 <h1 className="letsheader">Lets Speak Business</h1>
                 <p className="text" style={{ margin: '0 0 5em 0' }}> Ready for Construction, Ready for Life </p>
 
                 
-                {/* <Row> */}
+                
 
                 <CardDeck className="speaksection" >
 
                 {info.map((prop,i) => {
 
                 return(
-                   
+
+                    // <Row>
                 //    <Col>
 
                    
@@ -39,17 +41,19 @@ export default function Lets_speak() {
                     </Card.Body>
                     </Card>
 
-                    // </Col>
+                    //  </Col>
+                    //    </Row>
                 )
                     })}
 
                 </CardDeck>
 
-                {/* </Row> */}
+               
              
 
                     <button className="contactbtn"> Contact Us </button>
 
+                  
             </Container>
         </div>
     )
