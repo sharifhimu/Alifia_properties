@@ -13,19 +13,16 @@ export default class SearchCustom extends React.Component{
         super(props);
         this.state = {
           showList: false,
-          defaultSelectText: "Property Type",
+          defaultPropertyText: "Property Type",
           countryList: [
-            { id: 1, name: "Australia" },
-            { id: 2, name: "Brazil" },
-            { id: 3, name: "China" },
-            { id: 4, name: "Denmark" },
-            { id: 5, name: "Egypt" },
-            { id: 6, name: "Finland" },
-            { id: 7, name: "Ghana" },
-            { id: 8, name: "Hungary" },
-            { id: 9, name: "India" },
-            { id: 10, name: "Japan" }
-          ]
+            { id: 1, name: "Land" },
+            { id: 2, name: "Apartment" },
+            { id: 3, name: "House" },
+           
+          ],
+          
+          defaultLocationText: "Location",
+          defaultPlotText: "Plot Size"
         };
       }
 
@@ -52,7 +49,7 @@ export default class SearchCustom extends React.Component{
 
                <Col lg={3} xs={6} style={{ marginBottom: '10px', zIndex: '11' }}> 
           <CustomSelect
-            defaultText={this.state.defaultSelectText}
+            defaultText={this.state.defaultPropertyText}
             optionsList={this.state.countryList}
           />
 
@@ -60,7 +57,7 @@ export default class SearchCustom extends React.Component{
 
             <Col lg={3} xs={6} style={{ zIndex: '10' }}> 
           <CustomSelect
-            defaultText={this.state.defaultSelectText}
+            defaultText={this.state.defaultLocationText}
             optionsList={this.state.countryList}
           />
 
@@ -68,7 +65,7 @@ export default class SearchCustom extends React.Component{
 
             <Col lg={3} xs={6} style={{ zIndex: '10' }}> 
           <CustomSelect
-            defaultText={this.state.defaultSelectText}
+            defaultText={this.state.defaultPlotText}
             optionsList={this.state.countryList}
           />
 
