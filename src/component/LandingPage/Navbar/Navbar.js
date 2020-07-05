@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom';
 import {Nav, Navbar, Container, Row, Dropdown } from 'react-bootstrap';
 import logo from '../../../image/Union.png';
 
@@ -22,10 +23,18 @@ export default class NavBar extends React.Component {
       }
 
    render(){
+
+    let className = 'menu';
+  if (this.props.isActive) {
+    className = 'active';
+  }
+
     return (
         <div className="fixed-top" >
 
-            <nav  style={{  backgroundColor: `${this.state.navBackground}` }} >
+            <nav  
+            
+            style={{  backgroundColor: `${this.state.navBackground}` }} >
             
             <Navbar collapseOnSelect expand="sm" >
             
@@ -44,12 +53,14 @@ export default class NavBar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                 
-          
+         
 
                 <Nav>
-                <Nav.Link href="/">LAND</Nav.Link>
-                <Nav.Link href="/property">APARTMENTS</Nav.Link>
+             <Nav.Link  href="/">LAND</Nav.Link>
+             <Nav.Link className={className} href="/property">APARTMENTS</Nav.Link> 
                
+              
+                                                                    
                 </Nav>
                
                 <Navbar.Brand className="brandlarge" href="/">

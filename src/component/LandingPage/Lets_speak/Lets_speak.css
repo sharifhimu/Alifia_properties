@@ -6,7 +6,23 @@
 
 }
 
+.lets-speak-card{
+    text-align: start;
+    border: 0;
+    margin: 0 2em 2em 0;
+}
 
+.lets-speak-card a{
+    text-decoration: none;
+}
+
+.lets-speak-img{
+    transition: all .2s ease;
+}
+
+.lets-speak-img:hover{
+    transform: scale(1.1);
+}
 
 .title{
     font-family: 'Merriweather', serif;
@@ -16,8 +32,10 @@
     letter-spacing: 2px;
 }
 
-.text{
+.lets-speak-text{
     font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,.9);
+    font-weight: 900;
 }
 
 .imgborder{

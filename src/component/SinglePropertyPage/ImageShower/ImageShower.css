@@ -1,0 +1,41 @@
+.slide-hover{
+    transition: .2s;
+}
+
+.slide-hover:hover{
+    opacity: .5;
+}
+
+
+.relative{
+    position: relative;
+}
+
+.col-padding{
+padding: 0
+}
+
+.template{
+    width: 95%;
+    height: 100%;
+}
+
+.large-img{
+    
+    width: 100%;
+    height: 22rem;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 375px){
+    .large-img{
+        height: 15rem;
+    }
+}

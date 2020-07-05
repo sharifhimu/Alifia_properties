@@ -18,7 +18,7 @@ export default function PropertyCard() {
 
                 <Row style={{ display: 'flex', justifyContent: 'center' }}>
 
-                    {info.map((prop,i) => { 
+                    {info.map((prop,i) => {  
 
                         return(
 
@@ -27,12 +27,16 @@ export default function PropertyCard() {
                     <Col lg={4} xs={12} style={{ display: 'flex', justifyContent: 'center', marginBottom: '4em' }}>
 
                     <Card className="fullcard" >
+
+                    <a href="/singleproperty" >
+
                     <Card.Img variant="top" src={info[i].img} />
                     <Card.ImgOverlay style={{ display: 'flex', justifyContent: 'flex-end', padding: '0' }}>
                         <Card.Title className="cardtitle">{info[i].insidetitle}</Card.Title>
                     </Card.ImgOverlay>
+                    
                     <Card.Body className="cardbelow" >
-                        <Card.Text className="viewdetails"><a href="" >Click To View Details <BsArrowRight /> </a> </Card.Text>
+                        <Card.Text className="viewdetails"><a href="/singleproperty" >Click To View Details <BsArrowRight /> </a> </Card.Text>
                        
                        <div className="propertydetails">
                         <Card.Title>{info[i].cardtitle}</Card.Title>
@@ -42,6 +46,9 @@ export default function PropertyCard() {
                         </div>
                         
                     </Card.Body>
+
+                    </a>
+
                     </Card>
                     
                     </Col>

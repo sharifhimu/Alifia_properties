@@ -19,7 +19,7 @@ export default function Lets_speak() {
                 
                 
 
-                <CardDeck className="speaksection" >
+                <CardDeck className="speaksection" > 
 
                 {info.map((prop,i) => {
 
@@ -29,16 +29,22 @@ export default function Lets_speak() {
                 //    <Col>
 
                    
-                <Card style={{ width: '18rem', textAlign: 'start', border: '0',margin: '0 2em 2em 0'  }}>
-                    <Card.Img variant="top" src= {info[i].img} />
+                <Card className="lets-speak-card">
+                    
+                    <a href="/" >
+                    
+                    <Card.Img className="lets-speak-img" src= {info[i].img} />
                     <Card.Body style={{ padding: '0' }}>
                         <div className="imgborder"></div>
                         <Card.Title className="title"> {info[i].title} </Card.Title>
-                        <Card.Text className="text">
+                        <Card.Text className="lets-speak-text">
                         {info[i].text}
                         </Card.Text>
                         
                     </Card.Body>
+                    
+                    </a>
+
                     </Card>
 
                     //  </Col>

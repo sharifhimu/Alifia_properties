@@ -61,9 +61,9 @@
     position: absolute;
     background-color: #FFE9B1;
     
-    min-width: 18em;
+    min-width: 18.3em;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    z-index: 1;
+    z-index: 10;
     /* border: 3px solid #FFE9B1; */
     /* border-top: none; */
     transition: all .2s;
@@ -72,7 +72,7 @@
   
   .dropdown-content a {
     color: rgba(0,0,0,.5);
-    padding: 10px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     display: block;
     transition: all .2s;
@@ -110,7 +110,7 @@
          font-size: 15px;
      }
      .dropdown-content{
-         min-width: 12.2rem;
+         min-width: 12.5rem;
      }
  }
 

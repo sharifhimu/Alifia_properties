@@ -7,6 +7,16 @@
 .fullcard{
     width: 25rem;
     border: 1px solid #ffe9b1;
+    transition: .2s;
+}
+
+.fullcard a{
+    text-decoration: none;
+
+}
+
+.fullcard:hover{
+    box-shadow: 0 0 10px #808080;
 }
 
 .cardtitle{
@@ -58,7 +68,8 @@
     font-family: 'Merriweather', serif;
     font-size: 18px;
     letter-spacing: .5px;
-    font-weight: bold;
+    font-weight: 900;
+    color: rgba(0,0,0,.8);
 }
 
 .propertydetails .card-text{

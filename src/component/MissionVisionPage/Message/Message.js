@@ -7,11 +7,11 @@ import {GoMailRead} from 'react-icons/go';
 export default function Message() {
     return (
         <div style={{ backgroundColor: 'rgba(204,187,143,.2)',  padding: '5rem 0', margin: '3em 0 0 0 ' }}>
-            <Container style={{  }}>
+            <Container className="mission-container">
 
                 <Row>
                     
-                    <Col lg={4} className="missiontext">
+                    <Col lg={4} className="missiontext"> 
                     <h1>Our Mission</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                      Fugit quibusdam ex com  modilaudantium! Earum, placeat harum 

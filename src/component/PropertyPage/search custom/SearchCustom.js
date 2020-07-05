@@ -71,10 +71,10 @@ export default class SearchCustom extends React.Component{
 
             </Col>
 
-            <Col xs={6} lg={3} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'  }}>
+            <Col xs={6} lg={3} style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start'  }}>
                         <button className="searchbtn"> SEARCH NOW </button>
                     
-                    </Col>
+                    </Col> 
 
                 
            </Row>     

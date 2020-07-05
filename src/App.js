@@ -8,7 +8,7 @@ import LandingPage from './pages/LandingPage';
 import ContactPage from './pages/ContactPage';
 import MissionVisionPage from './pages/MissionVisionPage';
 import PropertyPage from './pages/PropertyPage';
-
+import SinglePropertyPage from './pages/SinglePropertyPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route  path ="/contactpage" component= {ContactPage} /> 
         <Route  path ="/mission&vision" component= {MissionVisionPage} />
         <Route  path ="/property" component= {PropertyPage} />   
-
+        <Route  path ="/singleproperty" component= {SinglePropertyPage} />   
         </Switch>
       
     </div>
