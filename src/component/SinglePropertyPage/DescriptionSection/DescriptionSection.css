@@ -85,7 +85,7 @@
         background-color: #665D47;
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .description-text h1{
         font-size: 30px;
     }

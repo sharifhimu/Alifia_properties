@@ -3,6 +3,10 @@
     justify-content: center;
 }
 
+.footertext p{
+    color: #FFE9B1;
+}
+
 .footerbg{
      background-color: #808080;
      padding: 2rem 0;

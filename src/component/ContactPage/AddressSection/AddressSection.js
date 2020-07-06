@@ -11,7 +11,7 @@ import {FaInstagram} from "react-icons/fa";
 
 export default function AddressSection() {
     return (
-        <div style={{ background: 'rgba(0, 0, 0, 0.75)', padding: '50px 0' }}>
+        <div className="address-section-bg" > 
            
            <Container>
             <Row>

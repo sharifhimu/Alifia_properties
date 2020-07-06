@@ -26,16 +26,21 @@ padding: 0
     height: 22rem;
 }
 
+.img-template-bg{
+    margin-top: 10px;
+}
+
+.img-template-row{
+    width: 100%;
+     margin: 0;
+}
 
 
 
 
 
-
-
-
-@media(max-width: 375px){
+@media(max-width: 600px){
     .large-img{
-        height: 15rem;
+        height: 12rem;
     }
 }

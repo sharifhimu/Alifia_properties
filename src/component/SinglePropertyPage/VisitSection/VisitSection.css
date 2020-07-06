@@ -4,8 +4,23 @@
     }
 }
 
+.visit-sec-bg{
+    background-color: rgba(204,187,143,.2); 
+     padding: 5rem 0;
+     margin: 3em 0 0 0 ;
+}
+
+.visit-sec-col{
+    margin-bottom: 2em;
+}
+
+.visit-sec-col a{
+    position: relative;
+}
+
 .map2{
     transition: .2s;
+    width: 100%;
 }
 
 .map2:hover{
@@ -37,6 +52,11 @@
     font-weight: bold;
 }
 
+.visit-sec-cardbody{
+    padding: 0;
+     width: 84%;
+     margin: 24px 0;
+}
 
 .visit-msg{
     text-align: center;
@@ -106,17 +126,15 @@
 }
 
 
-@media(max-width: 375px){
+@media(max-width: 600px){
    
     .visitmsg-btn{
         font-size: 15px;
         /* padding: 5px 9px; */
     }
-}
 
-
-@media(max-width: 375px){
     .map2{
         width: 350px;
-    }
+    
+}
 }

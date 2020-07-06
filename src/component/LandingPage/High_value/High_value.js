@@ -31,7 +31,7 @@ export default function High_value() {
             
             <Col lg={8}>
 
-                   <div className="" style={{  }}>
+                   <div className="">
                     <Image src={highvalue} fluid />
                     </div>
 

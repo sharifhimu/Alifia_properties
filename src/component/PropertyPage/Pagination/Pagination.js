@@ -7,7 +7,7 @@ import './Pagination.css';
 export default function Pagination() {
     return (
         <div>
-            <Container style={{ marginBottom: '20px' }}>
+            <Container className="pagination-container" >
                 <Row>
 
                     <Col>

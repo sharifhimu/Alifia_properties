@@ -14,7 +14,7 @@ export default function Lets_speak() {
            
 
                 <h1 className="letsheader">Lets Speak Business</h1>
-                <p className="text" style={{ margin: '0 0 5em 0' }}> Ready for Construction, Ready for Life </p>
+                <p className="text"> Ready for Construction, Ready for Life </p>
 
                 
                 

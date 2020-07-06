@@ -9,14 +9,14 @@ import {info} from './PropertyCardInfo';
 
 export default function PropertyCard() {
     return (
-        <div style={{ margin: '5rem 0 1rem 0', }}>
+        <div className="propertycard-bg">
 
             <Container className="containersize">
             {/* <CardColumns> */}
 
             {/* <CardDeck> */}
 
-                <Row style={{ display: 'flex', justifyContent: 'center' }}>
+                <Row className="propertycard-row">
 
                     {info.map((prop,i) => {  
 
@@ -24,14 +24,14 @@ export default function PropertyCard() {
 
                         
 
-                    <Col lg={4} xs={12} key={info[i].img} style={{ display: 'flex', justifyContent: 'center', marginBottom: '4em' }}>
+                    <Col lg={4} xs={12} key={info[i].img} className="propertycard-col" >
 
                     <Card className="fullcard" >
 
                     <a href="/singleproperty" >
 
                     <Card.Img variant="top" key={info[i].img} src={info[i].img} />
-                    <Card.ImgOverlay style={{ display: 'flex', justifyContent: 'flex-end', padding: '0' }}>
+                    <Card.ImgOverlay className="propertycard-imgoverlay">
                         <Card.Title className="cardtitle">{info[i].insidetitle}</Card.Title>
                     </Card.ImgOverlay>
                     
@@ -40,8 +40,8 @@ export default function PropertyCard() {
                        
                        <div className="propertydetails">
                         <Card.Title>{info[i].cardtitle}</Card.Title>
-                        <Card.Text style={{ display: 'flex', alignItems: 'center' }}>
-                        <MdLocationOn style={{ margin: '0 8px 0 0' }} /> {info[i].location}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FaVectorSquare style={{ margin: '0 8px 0 0' }} /> {info[i].measure}
+                        <Card.Text className="" >
+                        <MdLocationOn style={{ margin: '0 8px 0 0' }} /> <p> {info[i].location} </p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FaVectorSquare style={{ margin: '0 8px 0 0' }} /> <p> {info[i].measure} </p>
                         </Card.Text>
                         </div>
                         

@@ -8,7 +8,7 @@ import {MdLocationOn} from 'react-icons/md';
 
 export default function PropertyAddress() {
     return (
-        <div style={{ margin: '9rem 0 0 0' }}>
+        <div className="property-adress-bg" >
 
             <Container className="single-property-container">
             
@@ -22,9 +22,9 @@ export default function PropertyAddress() {
 
                  <div className="property-address-link"> 
                 <a href="/">  Home </a> <MdKeyboardArrowRight className="right-arrow"  /> 
-                <a href="/property" style={{ color: 'rgba(0,0,0,.5)' }}> Properties </a> 
+                <a href="/property" className="second-address"> Properties </a> 
                 <MdKeyboardArrowRight className="right-arrow"  />
-                <a href="/singleproperty" style={{ color: 'rgba(0,0,0,.3)' }}> Property Details </a> 
+                <a href="/singleproperty" className="third-address" > Property Details </a> 
 
                 </div>
                 </div>

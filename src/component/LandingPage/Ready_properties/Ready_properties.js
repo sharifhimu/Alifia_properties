@@ -6,7 +6,7 @@ import './Ready_properties.css';
 
 export default function Ready_properties() {
     return (
-        <div style={{ margin: '5rem 0' }}>
+        <div className="ready-property-bg">
 
             <h1 className="headertext">Ready Properties for Sale</h1>
             <p className="headerparagraph">Ready for Construction,Ready for Life</p>
@@ -17,7 +17,7 @@ export default function Ready_properties() {
             {/* <CardColumns > */}
 
            
-            <Row style={{ justifyContent: 'center' }}>
+            <Row className="ready-property-row">
 
                 <Col className="" >
 
@@ -78,7 +78,7 @@ export default function Ready_properties() {
 
             </Row>
 
-            <Row className="lastrow" style={{ justifyContent: 'center' }}>
+            <Row className="lastrow ready-property-row">
                 <Col className="" >
             <div>
             <a href="/" style={{ textDecoration: 'none' }}>

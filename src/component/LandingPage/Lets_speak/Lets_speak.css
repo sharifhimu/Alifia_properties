@@ -6,6 +6,10 @@
 
 }
 
+.text{
+    margin: 0 0 5em 0;
+}
+
 .lets-speak-card{
     text-align: start;
     border: 0;
@@ -64,7 +68,7 @@
     
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .speaksection{
         display: inline-block;
     }

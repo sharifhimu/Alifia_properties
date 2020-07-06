@@ -4,6 +4,21 @@
     }
 }
 
+.propertycard-bg{
+    margin: 5rem 0 1rem 0;
+}
+
+.propertycard-row{
+    display: flex; 
+    justify-content: center;
+}
+
+.propertycard-col{
+    display: flex; 
+    justify-content: center;
+     margin-bottom: 4em;
+}
+
 .fullcard{
     width: 25rem;
     border: 1px solid #ffe9b1;
@@ -17,6 +32,12 @@
 
 .fullcard:hover{
     box-shadow: 0 0 10px #808080;
+}
+
+.propertycard-imgoverlay{
+    display: flex;
+     justify-content: flex-end;
+     padding: 0;
 }
 
 .cardtitle{
@@ -74,17 +95,28 @@
 
 .propertydetails .card-text{
     color: #ccbb8f;
+    display: flex; 
+    align-items: center;
+}
+
+
+.propertydetails .card-text p{
+    margin: 0;
 }
 
 
 
-
-
-@media(max-width: 375px){
+@media(max-width: 600px){
     .fullcard{
         width: 15rem;
     }
     .cardbelow{
         padding: 0 0 20px 0;
     }
-}
+    .cardtitle{
+        font-size: 10px;
+    }
+    .propertydetails .card-text p{
+        font-size: 10px;
+    }
+} 

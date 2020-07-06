@@ -59,7 +59,7 @@ export default class NavBar extends React.Component {
              {/* <Nav.Link  href="/">LAND</Nav.Link>
              <Nav.Link className={className} href="/property">APARTMENTS</Nav.Link> 
                 */}
-              <NavLink exact activeClassName="active" className="nav-link"  to="/"><p> Land </p> </NavLink>  
+              <NavLink exact activeClassName="active" className="nav-link"  to=""><p> Land </p> </NavLink>  
               <NavLink exact activeClassName="active" className="nav-link"  to="/property"><p> PROPERTY </p></NavLink>                                                        
                 </Nav>
                

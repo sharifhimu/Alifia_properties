@@ -4,7 +4,9 @@
     }
 }
 
-
+.property-adress-bg{
+    margin: 9rem 0 0 0;
+}
 
 .property-address {
     display: flex;
@@ -54,8 +56,15 @@
     color: rgba(0,0,0,.5);
 }
 
+.second-address{
+    color: rgba(0,0,0,.5) !important;
+}
 
-@media(max-width: 375px){
+.third-address{
+    color: rgba(0,0,0,.3) !important;
+}
+
+@media(max-width: 600px){
     .property-address h1{
         font-size: 20px;
     }

@@ -12,11 +12,11 @@ export default function Contact() {
                     
                     </Col>
 
-                    <Col xs={10} lg={5} md={6} style={{ backgroundColor: 'white', margin: '3em 0 0 0', padding: '0 0 2em 0' }}>
+                    <Col xs={10} lg={5} md={6} className="contact-col" >
 
                         <h1 className="contacttitle">Contact US</h1>
 
-                    <ul style={{ textAlign: 'start', justifyContent: 'space-evenly' }}>
+                    <ul className="contact-ul">
 
                         <li className="infolist" > 
                         <i className="fa fa-envelope contacticon" ></i> 

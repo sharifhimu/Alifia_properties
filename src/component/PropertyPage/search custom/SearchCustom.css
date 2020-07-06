@@ -5,6 +5,12 @@
 }
 
 
+.test{
+  padding: 10rem 0 2rem 0;
+   background-color: rgba(204,187,143,.1);
+}
+
+
 .searchuptext {
     display: flex;
 }
@@ -31,6 +37,10 @@
 
 .searchuptext2 a{
     display: flex;
+}
+
+.searchcustom-box{
+  margin-bottom: 10px;
 }
 
 .homelink{
@@ -126,6 +136,12 @@
   }
   
 
+  .searchcustom-searchbtn{
+    display: flex;
+     justify-content: center;
+     align-items: flex-start;
+  }
+
   .searchbtn{
     background: #FFE9B1;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
@@ -144,7 +160,7 @@
   }
 
 
-  @media(max-width: 375px){
+  @media(max-width: 600px){
       .selected-text{
         padding: 6px 5px 6px 37px;
         font-size: 12px;

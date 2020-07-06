@@ -1,3 +1,12 @@
+
+.ready-property-bg{
+    margin: 5rem 0;
+}
+
+.ready-property-row{
+    justify-content: center;
+}
+
 .headertext{
     font-family: 'Merriweather', serif;
     /* font-size: 2rem; */
@@ -84,7 +93,7 @@
     display: none;
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .cardgrp{
         margin: 2rem 9rem 9rem 2rem;
     }

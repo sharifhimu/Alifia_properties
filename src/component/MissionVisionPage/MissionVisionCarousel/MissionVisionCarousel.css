@@ -45,7 +45,7 @@
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .missionbg{
         height: 30rem;
     }

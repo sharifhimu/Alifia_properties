@@ -1,3 +1,9 @@
+.address-section-bg{
+    background: rgba(0, 0, 0, 0.75);
+    padding: 50px 0;
+    
+}
+
 .alifiapart p{
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -79,7 +85,7 @@
 
 
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .alifiapart{
         text-align: center;
     }

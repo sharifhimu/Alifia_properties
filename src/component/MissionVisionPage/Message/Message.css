@@ -4,6 +4,12 @@
     }
 }
 
+.message-bg{
+    background-color: rgba(204,187,143,.2); 
+     padding: 5rem 0;
+     margin: 3em 0 0 0;
+}
+
 .missiontext{
     text-align: left;
 }
@@ -114,7 +120,7 @@
 }
 
 
-@media(max-width: 375px){
+@media(max-width: 600px){
    
     .sendmsgbtn{
         font-size: 15px;

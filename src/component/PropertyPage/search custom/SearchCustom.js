@@ -29,7 +29,7 @@ export default class SearchCustom extends React.Component{
       render() {
         return (
 
-            <div style={{  padding: '10rem 0 2rem 0', backgroundColor: 'rgba(204,187,143,.1)' }} className="test">
+            <div className="test">
 
                 <Container className="searchcontainer">
 
@@ -47,7 +47,7 @@ export default class SearchCustom extends React.Component{
 
                 <Row>  
 
-               <Col lg={3} xs={6} style={{ marginBottom: '10px', zIndex: '11' }}> 
+               <Col lg={3} xs={6} className="searchcustom-box" style={{  zIndex: '11' }}> 
           <CustomSelect
             defaultText={this.state.defaultPropertyText}
             optionsList={this.state.countryList}
@@ -71,7 +71,7 @@ export default class SearchCustom extends React.Component{
 
             </Col>
 
-            <Col xs={6} lg={3} style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start'  }}>
+            <Col xs={6} lg={3} className="searchcustom-searchbtn">
                         <button className="searchbtn"> SEARCH NOW </button>
                     
                     </Col> 

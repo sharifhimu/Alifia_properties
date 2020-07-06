@@ -18,7 +18,7 @@ export default function DescriptionSection() {
             <Container className="description-section-container">
 
             <Row>
-                <Col lg={7} sm={12} className="mb-5">
+                <Col lg={8} sm={12} className="mb-5">
 
                     <ImageShower />
                 

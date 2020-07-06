@@ -48,7 +48,7 @@
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
     .contactbg{
         height: 30rem;
     }

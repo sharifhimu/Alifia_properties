@@ -8,10 +8,10 @@ import './VisitSection.css';
 
 export default function VisitSection() {
     return (
-        <div style={{ backgroundColor: 'rgba(204,187,143,.2)',  padding: '5rem 0', margin: '3em 0 0 0 ' }}>
+        <div className="visit-sec-bg" >
             <Container className="visitsection-container">
                 <Row>
-                    <Col lg={8} xs={12} style={{ marginBottom: '2em' }}>
+                    <Col lg={8} xs={12} className="visit-sec-col" >
                     <a href="/"> <img className="map2" src={map2}  alt="map"/>   </a>
                     </Col>
 
@@ -21,7 +21,7 @@ export default function VisitSection() {
                         <GoMailRead className="visit-mailicon"/>
                         <h1 className="visitmsg-title">Want to Visit?</h1>
                    
-                    <Card.Body style={{ padding: '0', width: '84%', margin: '24px 0' }} className="">
+                    <Card.Body  className="visit-sec-cardbody">
                     
                     <form >
                         <div className="visit-msg">

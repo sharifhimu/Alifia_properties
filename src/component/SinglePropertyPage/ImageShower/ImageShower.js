@@ -33,8 +33,8 @@ export default function ImageShower() {
 
             </div>
         
-            <div style={{   marginTop: '10px' }}>
-         <Row style={{   width: '100%', margin: '0' }}>
+            <div className="img-template-bg" >
+         <Row className="img-template-row" >
             
          {info.map((prop,i) =>{ 
                 return(

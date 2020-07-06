@@ -7,7 +7,7 @@ import missionimg from '../../../image/missionimg.png';
 export default function Whoweare() {
     return (
         <div>
-            <Container style={{ marginTop: '4rem' }}>
+            <Container className="who-container">
                 <Row>
                     <Col lg={6} xs={12} className="who" >
                         

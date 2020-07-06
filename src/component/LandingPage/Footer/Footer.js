@@ -9,8 +9,8 @@ export default function Footer() {
             <Container >
 
                 <div className="footertext" >
-            <p style={{ color: '#FFE9B1' }}> &copy;Copyright 2020,Alifia Properties LTD. &nbsp;&nbsp;</p>
-            <p style={{ color: '#FFE9B1' }}> Designed by Beatnik Technologies  </p>
+            <p> &copy;Copyright 2020,Alifia Properties LTD. &nbsp;&nbsp;</p>
+            <p> Designed by Beatnik Technologies  </p>
             
             </div>
             </Container>

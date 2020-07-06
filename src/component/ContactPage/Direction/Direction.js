@@ -8,12 +8,12 @@ import map from '../../../image/map.png';
 export default function Direction() {
     return (
         <div>
-            <Container style={{ marginTop: '4rem' }}>
-                <Row  style={{ justifyContent: 'space-between' }}>
+            <Container className="direction-container">
+                <Row className="direction-row" > 
 
                     <Col lg={5} md sm xs={12}>
                     
-                    <Card style={{ border: '1px solid #FFE9B1',margin: '20px 0'  }}>
+                    <Card className="direction-card" >
                     <h1 className="maptitle"> Directions </h1>
                     <Card.Body>
                      <a href= "/contactpage" >   
@@ -26,7 +26,7 @@ export default function Direction() {
 
                     <Col lg={6} md sm xs={12} id="contact">
                     
-                    <Card style={{ border: '1px solid #FFE9B1', margin: '20px 0'  }}>
+                    <Card className="direction-card" >
                         <h1 className="maptitle">Contact Us</h1>
                    
                     <Card.Body className="contactbtm">

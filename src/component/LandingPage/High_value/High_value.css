@@ -27,7 +27,7 @@
 }
 
 
-@media(max-width: 375px){
+@media(max-width: 600px){
 
     .bgtext h1{
         font-size: 25px;
@@ -42,7 +42,3 @@
 }
 }
 
-@media(max-width: 991px){
-   
-
-}
