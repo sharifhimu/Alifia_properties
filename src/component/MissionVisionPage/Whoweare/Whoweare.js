@@ -27,7 +27,7 @@ export default function Whoweare() {
                     </Col>
 
                     <Col lg={6} xs={12} className="who" >
-                    <img src={missionimg} style={{ width: '100%' }} />
+                    <img src={missionimg} style={{ width: '100%' }} alt="missionimg" />
                     </Col>
                 </Row>
             </Container>

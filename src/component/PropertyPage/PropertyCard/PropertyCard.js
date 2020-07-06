@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col,Card,Button, CardColumns,CardDeck } from 'react-bootstrap';
+import { Container, Row, Col,Card, } from 'react-bootstrap';
 // import duplex from '../../../image/duplex.png';
 import {BsArrowRight} from 'react-icons/bs';
 import {MdLocationOn} from 'react-icons/md';
@@ -24,13 +24,13 @@ export default function PropertyCard() {
 
                         
 
-                    <Col lg={4} xs={12} style={{ display: 'flex', justifyContent: 'center', marginBottom: '4em' }}>
+                    <Col lg={4} xs={12} key={info[i].img} style={{ display: 'flex', justifyContent: 'center', marginBottom: '4em' }}>
 
                     <Card className="fullcard" >
 
                     <a href="/singleproperty" >
 
-                    <Card.Img variant="top" src={info[i].img} />
+                    <Card.Img variant="top" key={info[i].img} src={info[i].img} />
                     <Card.ImgOverlay style={{ display: 'flex', justifyContent: 'flex-end', padding: '0' }}>
                         <Card.Title className="cardtitle">{info[i].insidetitle}</Card.Title>
                     </Card.ImgOverlay>

@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Container } from 'react-bootstrap'
-import {Container, CardDeck, Card, Row, Col} from 'react-bootstrap';
+import {Container, CardDeck, Card,} from 'react-bootstrap';
 import './Lets_speak.css';
 import {info} from './spaekSectionInfo';
 

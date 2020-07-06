@@ -18,7 +18,7 @@ export default function AddressSection() {
 
                 <Col xs={12} sm={12} md={6} lg={5} className="alifiapart"> 
                 
-                    <img src={alifia}  />
+                    <img src={alifia} alt="alifia-logo" />
                     
                     <p> Alifia Properties Limited is working for the<br/>
                     development both in urban and its adjacent <br/>
@@ -61,10 +61,10 @@ export default function AddressSection() {
                 </Row>
 
                 <Row className="icons">
-                    <a href="" > <TiSocialFacebookCircular style={{ fontSize: '30px' }} /> </a>
-                    <a href="" > <FaWhatsapp style={{ fontSize: '25px' }} /> </a>
-                    <a href="" > <TiSocialTwitterCircular style={{ fontSize: '30px' }} /> </a>
-                    <a href="" > <FaInstagram style={{ fontSize: '25px' }} /> </a>
+                    <a href="/contactpage" > <TiSocialFacebookCircular style={{ fontSize: '30px' }} /> </a>
+                    <a href="/contactpage" > <FaWhatsapp style={{ fontSize: '25px' }} /> </a>
+                    <a href="/contactpage" > <TiSocialTwitterCircular style={{ fontSize: '30px' }} /> </a>
+                    <a href="/contactpage" > <FaInstagram style={{ fontSize: '25px' }} /> </a>
                 </Row>
                 
                 </Col>

@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import CustomSelect from "./CustomSelect";
 
 import {MdKeyboardArrowRight} from 'react-icons/md';
-import {IoIosArrowDown} from 'react-icons/io';
+
 
 import "./SearchCustom.css";
 

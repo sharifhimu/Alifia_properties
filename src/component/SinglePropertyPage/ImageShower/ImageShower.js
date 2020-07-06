@@ -29,7 +29,7 @@ export default function ImageShower() {
        
                   <>      
             <div className="relative "> 
-        <img className="large-img" id="currentImg"  src={require(`../../../image/${ currentImage ? currentImage :  'bg3.png'  }` )}  />
+        <img className="large-img" id="currentImg"  src={require(`../../../image/${ currentImage ? currentImage :  'bg3.png'  }` )} alt="large" />
 
             </div>
         

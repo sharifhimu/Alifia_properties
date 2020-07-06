@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Carousel } from 'react-bootstrap';
+import {Container, Carousel } from 'react-bootstrap';
 import './Carouselpart.css';
 import {IoIosArrowDown} from 'react-icons/io';
 // import img1 from '../../../image/bg1.png';

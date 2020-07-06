@@ -1,9 +1,9 @@
 import React from 'react'
-import {Container, Row, Col, Carousel } from 'react-bootstrap';
+import {Container, } from 'react-bootstrap';
 import {Link} from 'react-scroll';
 import './ContactCarousel.css';
 
-import img2 from '../../../image/bg2.png';
+
 import {IoIosArrowDropdown} from 'react-icons/io';
 
 

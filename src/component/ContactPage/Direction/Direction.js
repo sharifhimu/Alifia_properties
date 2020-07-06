@@ -16,7 +16,7 @@ export default function Direction() {
                     <Card style={{ border: '1px solid #FFE9B1',margin: '20px 0'  }}>
                     <h1 className="maptitle"> Directions </h1>
                     <Card.Body>
-                     <a href= "" >   
+                     <a href= "/contactpage" >   
                     <Card.Img className="mapimg" variant="top" src={map} />
                     </a>
                     </Card.Body>

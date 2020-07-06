@@ -12,9 +12,11 @@ import SinglePropertyPage from './pages/SinglePropertyPage';
 
 function App() {
   return (
-    <Router>
+
+   
     <div className="App">
 
+        <Router>
         <Switch>
         <Route exact path ="/" component= {LandingPage} />
         <Route  path ="/contactpage" component= {ContactPage} /> 
@@ -22,9 +24,10 @@ function App() {
         <Route  path ="/property" component= {PropertyPage} />   
         <Route  path ="/singleproperty" component= {SinglePropertyPage} />   
         </Switch>
-      
+        </Router>
     </div>
-    </Router>
+   
+
   );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import PropertyNavbar from '../component/PropertyPage/PropertyNavbar/PropertyNavbar';
-import SearchSection from '../component/PropertyPage/SearchSection/SearchSection';
+// import SearchSection from '../component/PropertyPage/SearchSection/SearchSection';
 import PropertyCard from '../component/PropertyPage/PropertyCard/PropertyCard';
 import Pagination from '../component/PropertyPage/Pagination/Pagination';
 import AddressSection from '../component/ContactPage/AddressSection/AddressSection';

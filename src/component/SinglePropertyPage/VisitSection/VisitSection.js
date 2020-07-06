@@ -12,7 +12,7 @@ export default function VisitSection() {
             <Container className="visitsection-container">
                 <Row>
                     <Col lg={8} xs={12} style={{ marginBottom: '2em' }}>
-                    <a href="/"> <img className="map2" src={map2} />   </a>
+                    <a href="/"> <img className="map2" src={map2}  alt="map"/>   </a>
                     </Col>
 
                     <Col lg={4} xs={12}>
