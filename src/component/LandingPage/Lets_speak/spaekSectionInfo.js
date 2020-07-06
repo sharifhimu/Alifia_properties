@@ -1,6 +1,6 @@
 // import {baseUrl} from '../../config';
-import landowner from '../../../image/landowners.png'
-import buyers from '../../../image/buyers.png'
+import landowner from '../../../image/landowners.png';
+import buyers from '../../../image/buyers.png';
 
 export const info = [
 

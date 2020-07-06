@@ -17,7 +17,7 @@ function App() {
     <div className="App">
 
         <Router>
-        <Switch>
+        <Switch basename="/alifia-web/">
         <Route exact path ="/" component= {LandingPage} />
         <Route  path ="/contactpage" component= {ContactPage} /> 
         <Route  path ="/mission&vision" component= {MissionVisionPage} />
