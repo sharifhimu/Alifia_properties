@@ -10,8 +10,9 @@
 }
 
 .page-link:hover{
-    background-color: #CCBB8F;
-    color: white;
+    background-color: white;
+    border: 1px solid #CCBB8F;
+    color: #CCBB8F;
 }
 
 
@@ -20,4 +21,10 @@
     background-color: #CCBB8F;
     border-color: #CCBB8F;
 
+}
+
+.pageactive{
+    background-color: #CCBB8F;
+    border-color: #CCBB8F;
+    color: white;
 }

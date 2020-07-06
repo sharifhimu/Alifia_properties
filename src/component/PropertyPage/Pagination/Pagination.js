@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
+import {NavLink} from 'react-router-dom';
 
 import './Pagination.css';
 
@@ -13,10 +14,12 @@ export default function Pagination() {
             <nav aria-label="Page navigation example">
                 <ul className="pagination">
                     
-                    <li className="page-item active"><a className="page-link" href="/property">1</a></li>
-                    <li className="page-item"><a className="page-link" href="/property">2</a></li>
-                    <li className="page-item"><a className="page-link" href="/property">3</a></li>
-                    <li className="page-item"><a className="page-link" href="/property">4</a></li>
+                    <li className="page-item "><NavLink exact className="page-link" activeClassName="pageactive" to="/property">1</NavLink></li>
+                    <li className="page-item "><NavLink  className="page-link" activeClassName="pageactive" to="/property1">2</NavLink></li>
+                    <li className="page-item "><NavLink  className="page-link" activeClassName="pageactive" to="/property2">3</NavLink></li>
+                    <li className="page-item "><NavLink  className="page-link" activeClassName="pageactive" to="/property3">4</NavLink></li>
+
+                    {/* <li className="page-item"><a className="page-link" href="/property">4</a></li> */}
                    
                 </ul>
                 </nav>

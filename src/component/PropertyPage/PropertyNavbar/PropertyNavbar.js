@@ -1,6 +1,7 @@
 import React from 'react'
 import {Nav, Navbar, } from 'react-bootstrap';
 import logo from '../../../image/Union.png';
+import {NavLink} from 'react-router-dom';
 
 
 import './PropertyNavbar.css';
@@ -46,10 +47,12 @@ export default class PropertyNavBar extends React.Component {
                 
           
 
-                <Nav>
-                <Nav.Link href="/">LAND</Nav.Link>
-                <Nav.Link href="/property">APARTMENTS</Nav.Link>
-               
+            <Nav>
+             {/* <Nav.Link  href="/">LAND</Nav.Link>
+             <Nav.Link className={className} href="/property">APARTMENTS</Nav.Link> 
+                */}
+              <NavLink exact activeClassName="active" className="nav-link"  to="/"><p> Land </p> </NavLink>  
+              <NavLink exact activeClassName="active" className="nav-link"  to="/property"><p> PROPERTY </p></NavLink>                                                        
                 </Nav>
                
                 <Navbar.Brand className="brandlarge" href="/">
@@ -64,9 +67,13 @@ export default class PropertyNavBar extends React.Component {
                 </Navbar.Brand>
 
                 <Nav>
-                <Nav.Link href="/mission&vision">BUSINESS</Nav.Link>
+                {/* <Nav.Link href="/mission&vision">BUSINESS</Nav.Link>
                 <Nav.Link href="/contactpage">CONTACT</Nav.Link>
-               
+                */}
+                
+                <NavLink exact activeClassName="active" className="nav-link"  to="/mission&vision"><p> business </p></NavLink>   
+                <NavLink exact activeClassName="active" className="nav-link"  to="/contactpage"><p> contact </p> </NavLink>   
+
                 </Nav>
 
                
